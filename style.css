@@ -1,0 +1,154 @@
+/* body *{
+    outline:1px solid black;
+} */
+
+/* WEBPAGE SIZE */
+#container{
+    width:970px;
+    height:910px;
+    background-color:#306998;
+}
+
+/* TEXT SIZE (TOP RIGHT CORNER OF PAGE) */
+#textSize{
+    display:flex;
+    justify-content:flex-end;
+}
+#textSize p{
+    padding:0px 40px 0px 0px;
+    margin:10px 0px 0px 0px;
+    color:white;
+}
+#textSize a{
+color:#ffd343;
+}
+
+/* PYTHON IMAGE AND SEARCH BAR */
+#header img{
+    margin:0px 0px 0px 45px;
+    width:360px;
+    height:130px;
+}
+#header img,#header p{
+display:inline-block;
+}
+.searchbar,.goButton{
+    display:inline-block;
+}
+.searchbar{
+    border-radius: 10px;
+    background-color:#646464;
+    padding:15px 35px 15px 35px;
+    vertical-align:top;
+    margin:10px 0px 0px 265px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+/* NAVIGATION BAR */
+#navbar ul, #navbar li{
+    display:flex;
+    justify-content: space-evenly;
+}
+#navbar ul{
+    background-color:#4b8bbe;
+    padding:10px 0px 10px 0px;
+    width:850px;
+    margin:0px 0px 0px 90px;
+    border-radius: 8px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+#navbar a{
+    color:white;
+    font-size: 23px;
+    text-decoration:none;
+}
+
+/* LEFT HAND SIDE LINKS */
+#sidelinks{
+    color:#ffd343;
+    margin:20px 30px 0px 110px;
+}
+#sidelinks ul{
+    text-align:center;
+}
+#sidelinks a{
+    color:white;
+}
+#sidelinks,#content{
+    display:inline-block;
+}
+#sidelinks li{
+    padding:0px 0px 10px 0px;
+}
+
+/* RIGHT HAND SIDE CONTENT */
+#content{
+    width:630px;
+    vertical-align: top;
+}
+#content, #zenContent,#zenOfPython{
+    text-align: center;
+}
+#content, #zenOfPython{
+    color:white;
+}
+#zenContent{
+    color:#ffd343;
+    font-style:italic;
+    font-size:21px;
+}
+#zenContent p{
+    margin:10px;
+    }
+#zenOfPython{
+    font-size:17px;
+}
+
+/* GETTING STARTED AND APPLICATIONS SECTION */
+#gettingStarted, #applications{
+    background-color:white;
+    display:inline-block;
+    width:300px;
+    margin:0px 0px 0px 120px;
+}
+#gettingstarted p, #applications p{
+text-align:center;
+}
+#gettingStarted a, #applications a{
+    color:#4b8bbe
+}
+#bottom{
+    display:flex;
+    background-color:white;
+}
+#bottom h3, #bottom p, #bottom ul{
+    text-align: center;
+}
+#applications h3, #gettingStarted h3{
+    padding:5px 0px 0px 0px;
+    border-top:solid #4b8bbe;
+}
+#gettingStarted a, #applications a{
+    text-decoration: none;
+}
+
+/* VERY BOTTOM OF PAGE */
+#help ul, #help ul li{
+    display:inline-block;
+}
+#help a{
+    text-decoration: none;
+    padding:0px 30px 0px 0px;
+    color:rgb(230, 230, 230);
+    font-size:18px;
+}
+#help{
+    text-align:center;
+    margin:15px 0px 0px 0px;
+}
+#help p{
+    font-size:10px;
+    color:rgb(230, 230, 230);
+}
